@@ -12,9 +12,17 @@ namespace TheSnakeGame
 {
     public partial class Game : Form
     {
+        Area area = new Area();
+
         public Game()
         {
             InitializeComponent();
+            InitiliazeGameArea()
+        }
+
+        private void InitiliazeGameArea()
+        {
+            this.Controls.Add(area);
         }
     }
 }
