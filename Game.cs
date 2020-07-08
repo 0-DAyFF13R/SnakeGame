@@ -17,7 +17,7 @@ namespace TheSnakeGame
         public Game()
         {
             InitializeComponent();
-            InitiliazeGameArea()
+            InitiliazeGameArea();
         }
 
         private void InitiliazeGameArea()
